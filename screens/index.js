@@ -5,9 +5,11 @@ import React from 'react';
 import Home from './Home';
 import Delivery from './Delivery';
 import Restaurant from './Restaurant';
+import Search from './Search';
 
 export {
     Home,
     Delivery,
-    Restaurant
+    Restaurant,
+    Search
 }
