@@ -4,9 +4,9 @@
     "slug": "FoodDelivery",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icons/back.png",
+    "icon": "./assets/images/burger-restaurant.jpg",
     "splash": {
-      "image": "./assets/icons/back.png",
+      "image": "./assets/images/burger-restaurant.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,16 +17,20 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.FoodDelivery",
+      "config": {
+        "googleMapsApiKey": "AIzaSyBGmAOq14OOsGf8fqPfskAAaI_XxDk6GnE"
+      }
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/icons/back.png",
+        "foregroundImage": "./assets/images/burger-restaurant.jpg",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
-      "favicon": "./assets/icons/back.png"
+      "favicon": "./assets/images/burger-restaurant.jpg"
     }
   }
 }
